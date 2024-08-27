@@ -1,0 +1,27 @@
+body{
+    background: linear-gradient(120deg, #979797, #070707);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 12px;
+
+    & input{
+        padding: 12px 20px;
+        border: none;
+        border-radius: 28px;
+        margin-top: 20px;
+    }
+
+    & button{
+        padding: 5px 12px;
+        border-radius: 18px;
+        border: none;
+        background: rgba(1, 211, 1, 0.829);
+        cursor: pointer;
+    }
+
+}
